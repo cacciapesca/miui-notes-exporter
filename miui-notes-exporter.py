@@ -462,7 +462,7 @@ def note_to_markdown(note: Note, keep_html: bool) -> str:
 def write_note(note: Note, output_dir: Path, fallback_note_dir: Path, config: ConverterConfig) -> None:
     """Write a single note to a .md file and set its modification timestamp."""
     if note.note_type != "common":
-        print(f"Skipping unsupported note type '{note.note_type}' (id={note.note_id})")
+        print(f"Skipping unsupported note type '{note.note_type}' (Title={note.title})")
         return
 
     folder = output_dir / (note.group_name if note.group_name else fallback_note_dir)
