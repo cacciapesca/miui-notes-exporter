@@ -4,9 +4,9 @@ A command-line tool written in Python to convert MIUI Notes backup files (`.bak`
 
 ## Why?
 
-I wanted to move all of my notes written on the default Notes app on my Xiaomi phone to a FOSS alternative. That's when I found out MIUI's Notes app doesn't provide any useful way to export notes in bulk in a cross-compatible format. 
+I wanted to move all of my notes written on the default Notes app on my Xiaomi phone to a FOSS alternative. That's when I found out the MIUI's Notes app doesn't provide any useful way to export notes in bulk in a cross-compatible format. 
 
-I searched online and found that a tool to export the notes in bulk already existed but relied on Xiaomi's Cloud and that for me was a no-go. 
+I searched online and found that a tool to export all of my notes already existed but relied on Xiaomi's Cloud and that for me was a no-go. 
 
 I decided instead to try to decode the backup format of the Notes app and create this script. 
 
